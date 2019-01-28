@@ -66,6 +66,10 @@
     <Compile Include="Migrations\201901280835286_adres.Designer.cs">
       <DependentUpon>201901280835286_adres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901280848446_adresleUlke.cs" />
+    <Compile Include="Migrations\201901280848446_adresleUlke.Designer.cs">
+      <DependentUpon>201901280848446_adresleUlke.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901280835286_adres.resx">
       <DependentUpon>201901280835286_adres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901280848446_adresleUlke.resx">
+      <DependentUpon>201901280848446_adresleUlke.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

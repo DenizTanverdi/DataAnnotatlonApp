@@ -10,6 +10,7 @@ namespace DataAnnotatlonApp.Entity
     public  class Adresler
     {
         [Key]
+       
         [Column("AdresId")]
         public int AdresId { get; set; }
         [StringLength(500)]
@@ -19,5 +20,7 @@ namespace DataAnnotatlonApp.Entity
         [Phone(ErrorMessage ="Telefon Numarasi Hatalidir.")]
         [StringLength(30)]
         public string Telefon { get; set; }
+        [StringLength(50)]
+        public string Ulke { get; set; }
     }
 }
