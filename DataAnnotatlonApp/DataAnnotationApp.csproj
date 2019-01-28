@@ -50,14 +50,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context\EntityFraContext.cs" />
+    <Compile Include="Entity\Adresler.cs" />
     <Compile Include="Entity\Firma.cs" />
     <Compile Include="Entity\Kisiler.cs" />
+    <Compile Include="Migrations\201901280649084_InitialCreate.cs" />
+    <Compile Include="Migrations\201901280649084_InitialCreate.Designer.cs">
+      <DependentUpon>201901280649084_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901280832588_Adresler.cs" />
+    <Compile Include="Migrations\201901280832588_Adresler.Designer.cs">
+      <DependentUpon>201901280832588_Adresler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901280835286_adres.cs" />
+    <Compile Include="Migrations\201901280835286_adres.Designer.cs">
+      <DependentUpon>201901280835286_adres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201901280649084_InitialCreate.resx">
+      <DependentUpon>201901280649084_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901280832588_Adresler.resx">
+      <DependentUpon>201901280832588_Adresler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901280835286_adres.resx">
+      <DependentUpon>201901280835286_adres.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotatlonApp", "DataAnnotatlonApp\DataAnnotatlonApp.csproj", "{8641B5A0-6B96-414A-B544-A6A67A661392}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotationApp", "DataAnnotatlonApp\DataAnnotationApp.csproj", "{8641B5A0-6B96-414A-B544-A6A67A661392}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
