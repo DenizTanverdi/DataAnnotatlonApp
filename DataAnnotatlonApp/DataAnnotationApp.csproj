@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Context\EntityFraContext.cs" />
     <Compile Include="Entity\Adresler.cs" />
+    <Compile Include="Entity\Citys.cs" />
     <Compile Include="Entity\Firma.cs" />
     <Compile Include="Entity\Kisiler.cs" />
     <Compile Include="Migrations\201901280649084_InitialCreate.cs" />
@@ -69,6 +70,10 @@
     <Compile Include="Migrations\201901280848446_adresleUlke.cs" />
     <Compile Include="Migrations\201901280848446_adresleUlke.Designer.cs">
       <DependentUpon>201901280848446_adresleUlke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901281027505_city.cs" />
+    <Compile Include="Migrations\201901281027505_city.Designer.cs">
+      <DependentUpon>201901281027505_city.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -90,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901280848446_adresleUlke.resx">
       <DependentUpon>201901280848446_adresleUlke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901281027505_city.resx">
+      <DependentUpon>201901281027505_city.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
